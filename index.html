@@ -1,0 +1,657 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta
+        name="description"
+        content="Blog pessoal de Paulo Santos, desenvolvedor de software. Programação, tecnologia, projetos e aprendizado."
+    >
+
+    <title>Paulo Santos | Developer Blog</title>
+
+    <!-- Fonte externa -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+        rel="stylesheet"
+    >
+
+    <!-- Arquivo de estilos -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Ícones -->
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    >
+
+    <!-- Comportamentos -->
+    <script src="js/script.js" defer></script>
+</head>
+
+<body>
+
+    <!-- CABEÇALHO -->
+    <header class="header" id="topo">
+        <div class="container header-content">
+
+            <a href="#topo" class="logo" aria-label="Paulo Santos - início">
+                <span class="logo-icon">&lt;/&gt;</span>
+                <span>paulo<span class="text-green">santos</span></span>
+                <span class="logo-dot">.</span>
+            </a>
+
+            <button
+                class="menu-toggle"
+                id="menuToggle"
+                aria-label="Abrir menu"
+                aria-expanded="false"
+                aria-controls="navMenu"
+            >
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
+            <nav class="nav-menu" id="navMenu" aria-label="Menu principal">
+                <a href="#inicio" class="nav-link active">Início</a>
+                <a href="#sobre" class="nav-link">Sobre</a>
+                <a href="#projetos" class="nav-link">Projetos</a>
+                <a href="#artigos" class="nav-link">Artigos</a>
+                <a href="#contato" class="nav-link">Contato</a>
+            </nav>
+
+            <a href="#contato" class="header-cta">
+                Vamos conversar
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </a>
+
+        </div>
+    </header>
+
+
+    <main>
+
+        <!-- APRESENTAÇÃO -->
+        <section class="hero section" id="inicio">
+            <div class="container hero-grid">
+
+                <div class="hero-content">
+
+                    <div class="status-badge">
+                        <span class="status-dot"></span>
+                        Desenvolvendo novas ideias
+                    </div>
+
+                    <p class="eyebrow">DESENVOLVEDOR • CRIADOR • EXPLORADOR</p>
+
+                    <h1>
+                        Transformando ideias em
+                        <span class="text-green">experiências digitais.</span>
+                    </h1>
+
+                    <p class="hero-description">
+                        Olá, eu sou Paulo Santos. Compartilho meus projetos,
+                        experiências e aprendizados no universo da programação
+                        e da tecnologia.
+                    </p>
+
+                    <div class="hero-actions">
+                        <a href="#projetos" class="btn btn-primary">
+                            Explorar projetos
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+
+                        <a href="#artigos" class="btn btn-secondary">
+                            Ler artigos
+                        </a>
+                    </div>
+
+                    <div class="hero-stats">
+                        <div class="stat">
+                            <strong>01<span>+</span></strong>
+                            <small>Projetos em evolução</small>
+                        </div>
+
+                        <div class="stat">
+                            <strong>∞</strong>
+                            <small>Ideias para explorar</small>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="hero-visual">
+                    <div class="visual-glow"></div>
+
+                    <div class="code-window">
+                        <div class="window-header">
+                            <div class="window-dots">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+
+                            <span>paulo.js</span>
+
+                            <i class="fa-solid fa-code"></i>
+                        </div>
+
+                        <div class="code-content">
+                            <p><span class="code-muted">01</span> <span class="code-purple">const</span> developer = {</p>
+                            <p><span class="code-muted">02</span> &nbsp; name: <span class="code-yellow">"Paulo Santos"</span>,</p>
+                            <p><span class="code-muted">03</span> &nbsp; passion: <span class="code-yellow">"Technology"</span>,</p>
+                            <p><span class="code-muted">04</span> &nbsp; skills: [</p>
+                            <p><span class="code-muted">05</span> &nbsp;&nbsp;&nbsp; <span class="code-yellow">"HTML"</span>,</p>
+                            <p><span class="code-muted">06</span> &nbsp;&nbsp;&nbsp; <span class="code-yellow">"CSS"</span>,</p>
+                            <p><span class="code-muted">07</span> &nbsp;&nbsp;&nbsp; <span class="code-yellow">"JavaScript"</span></p>
+                            <p><span class="code-muted">08</span> &nbsp; ],</p>
+                            <p><span class="code-muted">09</span> &nbsp; learning: <span class="code-purple">true</span></p>
+                            <p><span class="code-muted">10</span> };</p>
+                            <p><span class="code-muted">11</span></p>
+                            <p><span class="code-muted">12</span> <span class="code-purple">export default</span> developer;</p>
+                        </div>
+
+                        <div class="code-footer">
+                            <span><i class="fa-solid fa-circle-check"></i> Ready to build</span>
+                            <span>UTF-8</span>
+                        </div>
+                    </div>
+
+                    <div class="floating-card floating-card-top">
+                        <i class="fa-solid fa-bolt"></i>
+                        <span>Ideias em ação</span>
+                    </div>
+
+                    <div class="floating-card floating-card-bottom">
+                        <i class="fa-solid fa-terminal"></i>
+                        <span>Code. Learn. Repeat.</span>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- TECNOLOGIAS -->
+        <section class="tech-strip">
+            <div class="container tech-content">
+                <span>TECNOLOGIAS QUE EXPLORO</span>
+
+                <div class="tech-items">
+                    <span><i class="fa-brands fa-html5"></i> HTML5</span>
+                    <span><i class="fa-brands fa-css3-alt"></i> CSS3</span>
+                    <span><i class="fa-brands fa-js"></i> JavaScript</span>
+                    <span><i class="fa-brands fa-python"></i> Python</span>
+                    <span><i class="fa-brands fa-git-alt"></i> Git</span>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- SOBRE -->
+        <section class="section about-section" id="sobre">
+            <div class="container about-grid">
+
+                <div class="section-heading">
+                    <p class="eyebrow">UM POUCO SOBRE MIM</p>
+                    <h2>Curiosidade que vira <span class="text-green">código.</span></h2>
+                </div>
+
+                <div class="about-content">
+                    <p>
+                        Acredito que a tecnologia é uma ferramenta para resolver
+                        problemas reais. Meu objetivo é aprender continuamente,
+                        criar soluções úteis e compartilhar o processo com
+                        outras pessoas.
+                    </p>
+
+                    <p>
+                        Neste espaço, registro meus estudos, mostro meus projetos
+                        e documento minha evolução como desenvolvedor.
+                    </p>
+
+                    <a href="#contato" class="text-link">
+                        Entre em contato
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- PROJETOS -->
+        <section class="section projects-section" id="projetos">
+            <div class="container">
+
+                <div class="section-top">
+                    <div class="section-heading">
+                        <p class="eyebrow">MEU TRABALHO</p>
+                        <h2>Projetos em <span class="text-green">destaque.</span></h2>
+                        <p class="section-description">
+                            Experimentos, ideias e soluções que estou construindo.
+                        </p>
+                    </div>
+
+                    <a href="#contato" class="text-link">
+                        Tem uma ideia?
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </a>
+                </div>
+
+                <div class="project-grid">
+
+                    <article class="project-card">
+                        <div class="project-visual project-visual-green">
+                            <i class="fa-solid fa-wallet"></i>
+                            <span class="project-number">01 / PROJECT</span>
+                        </div>
+
+                        <div class="project-body">
+                            <div class="tag-list">
+                                <span>Python</span>
+                                <span>Lógica</span>
+                            </div>
+
+                            <h3>Planejador Financeiro</h3>
+
+                            <p>
+                                Aplicação para registrar despesas, calcular
+                                gastos e organizar o orçamento pessoal.
+                            </p>
+
+                            <a
+                                href="https://github.com/"
+                                class="project-link"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                aria-label="Ver Planejador Financeiro no GitHub"
+                            >
+                                Ver projeto
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            </a>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-visual project-visual-purple">
+                            <i class="fa-solid fa-laptop-code"></i>
+                            <span class="project-number">02 / PROJECT</span>
+                        </div>
+
+                        <div class="project-body">
+                            <div class="tag-list">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                            </div>
+
+                            <h3>Portfólio Web</h3>
+
+                            <p>
+                                Uma experiência digital para apresentar
+                                habilidades, projetos e trajetória profissional.
+                            </p>
+
+                            <a
+                                href="https://github.com/"
+                                class="project-link"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                aria-label="Ver Portfólio Web no GitHub"
+                            >
+                                Ver projeto
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            </a>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-visual project-visual-blue">
+                            <i class="fa-solid fa-mobile-screen-button"></i>
+                            <span class="project-number">03 / PROJECT</span>
+                        </div>
+
+                        <div class="project-body">
+                            <div class="tag-list">
+                                <span>UI/UX</span>
+                                <span>Web</span>
+                            </div>
+
+                            <h3>Minha Tenda</h3>
+
+                            <p>
+                                Protótipo de aplicativo para organizar agenda,
+                                avisos e informações de uma comunidade.
+                            </p>
+
+                            <a
+                                href="https://github.com/"
+                                class="project-link"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                aria-label="Ver Minha Tenda no GitHub"
+                            >
+                                Ver projeto
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            </a>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+
+        <!-- ARTIGOS -->
+        <section class="section articles-section" id="artigos">
+            <div class="container">
+
+                <div class="section-top">
+                    <div class="section-heading">
+                        <p class="eyebrow">BLOG & APRENDIZADO</p>
+                        <h2>Ideias que merecem <span class="text-green">ser compartilhadas.</span></h2>
+                        <p class="section-description">
+                            Anotações e descobertas da minha jornada na tecnologia.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Pesquisa e filtros -->
+                <div class="article-controls">
+                    <label class="search-box">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+
+                        <input
+                            type="search"
+                            id="articleSearch"
+                            placeholder="Pesquisar artigos..."
+                            aria-label="Pesquisar artigos"
+                        >
+                    </label>
+
+                    <div class="filter-list" aria-label="Filtrar artigos">
+                        <button class="filter-btn active" data-filter="todos">
+                            Todos
+                        </button>
+
+                        <button class="filter-btn" data-filter="programacao">
+                            Programação
+                        </button>
+
+                        <button class="filter-btn" data-filter="carreira">
+                            Carreira
+                        </button>
+
+                        <button class="filter-btn" data-filter="tecnologia">
+                            Tecnologia
+                        </button>
+                    </div>
+                </div>
+
+                <div class="article-grid" id="articleGrid">
+
+                    <article class="article-card" data-category="programacao">
+                        <div class="article-image article-image-code">
+                            <i class="fa-solid fa-code"></i>
+                            <span>01</span>
+                        </div>
+
+                        <div class="article-body">
+                            <div class="article-meta">
+                                <span>PROGRAMAÇÃO</span>
+                                <span>5 MIN DE LEITURA</span>
+                            </div>
+
+                            <h3>Como começar a programar do zero</h3>
+
+                            <p>
+                                Um caminho prático para entender a lógica
+                                de programação e escrever suas primeiras linhas.
+                            </p>
+
+                            <button
+                                class="read-more"
+                                data-article="logica"
+                                aria-label="Ler artigo: Como começar a programar do zero"
+                            >
+                                Ler artigo
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </button>
+                        </div>
+                    </article>
+
+                    <article class="article-card" data-category="carreira">
+                        <div class="article-image article-image-career">
+                            <i class="fa-solid fa-rocket"></i>
+                            <span>02</span>
+                        </div>
+
+                        <div class="article-body">
+                            <div class="article-meta">
+                                <span>CARREIRA</span>
+                                <span>4 MIN DE LEITURA</span>
+                            </div>
+
+                            <h3>Como construir um portfólio de desenvolvedor</h3>
+
+                            <p>
+                                O que apresentar nos seus primeiros projetos
+                                para demonstrar seu aprendizado.
+                            </p>
+
+                            <button
+                                class="read-more"
+                                data-article="portfolio"
+                                aria-label="Ler artigo: Como construir um portfólio"
+                            >
+                                Ler artigo
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </button>
+                        </div>
+                    </article>
+
+                    <article class="article-card" data-category="tecnologia">
+                        <div class="article-image article-image-tech">
+                            <i class="fa-solid fa-microchip"></i>
+                            <span>03</span>
+                        </div>
+
+                        <div class="article-body">
+                            <div class="article-meta">
+                                <span>TECNOLOGIA</span>
+                                <span>6 MIN DE LEITURA</span>
+                            </div>
+
+                            <h3>Inteligência artificial para desenvolvedores</h3>
+
+                            <p>
+                                Como usar ferramentas de IA para estudar,
+                                testar ideias e aumentar a produtividade.
+                            </p>
+
+                            <button
+                                class="read-more"
+                                data-article="ia"
+                                aria-label="Ler artigo: Inteligência artificial para desenvolvedores"
+                            >
+                                Ler artigo
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </button>
+                        </div>
+                    </article>
+
+                </div>
+
+                <p id="emptyResults" class="empty-results" hidden>
+                    Nenhum artigo encontrado. Tente outra pesquisa.
+                </p>
+
+            </div>
+        </section>
+
+
+        <!-- MODAL DE LEITURA -->
+        <dialog class="article-modal" id="articleModal">
+            <div class="modal-header">
+                <span class="eyebrow">PAULO SANTOS • BLOG</span>
+
+                <button
+                    type="button"
+                    class="modal-close"
+                    id="closeModal"
+                    aria-label="Fechar artigo"
+                >
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+            </div>
+
+            <div class="modal-content" id="modalContent">
+                <!-- O JavaScript insere o artigo selecionado aqui. -->
+            </div>
+        </dialog>
+
+
+        <!-- CONTATO -->
+        <section class="section contact-section" id="contato">
+            <div class="container contact-grid">
+
+                <div class="contact-content">
+                    <p class="eyebrow">VAMOS CONVERSAR?</p>
+
+                    <h2>
+                        Sua próxima ideia começa com uma
+                        <span class="text-green">conversa.</span>
+                    </h2>
+
+                    <p>
+                        Tem um projeto, uma oportunidade ou quer trocar
+                        experiências sobre tecnologia? Entre em contato.
+                    </p>
+
+                    <div class="social-links">
+                        <a
+                            href="https://github.com/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            aria-label="GitHub"
+                        >
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+
+                        <a
+                            href="https://www.linkedin.com/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            aria-label="LinkedIn"
+                        >
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </a>
+
+                        <a
+                            href="mailto:contato@exemplo.com"
+                            aria-label="Enviar e-mail"
+                        >
+                            <i class="fa-solid fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <form class="contact-form" id="contactForm">
+
+                    <div class="form-group">
+                        <label for="name">Seu nome</label>
+                        <input
+                            type="text"
+                            id="name"
+                            name="name"
+                            placeholder="Digite seu nome"
+                            required
+                            minlength="2"
+                        >
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Seu e-mail</label>
+                        <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            placeholder="voce@email.com"
+                            required
+                        >
+                    </div>
+
+                    <div class="form-group">
+                        <label for="subject">Assunto</label>
+                        <input
+                            type="text"
+                            id="subject"
+                            name="subject"
+                            placeholder="Sobre o que vamos conversar?"
+                            required
+                        >
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Mensagem</label>
+                        <textarea
+                            id="message"
+                            name="message"
+                            rows="4"
+                            placeholder="Escreva sua mensagem..."
+                            required
+                            minlength="10"
+                        ></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary form-submit">
+                        Preparar mensagem
+                        <i class="fa-solid fa-paper-plane"></i>
+                    </button>
+
+                    <p class="form-feedback" id="formFeedback" role="status"></p>
+
+                    <small class="form-note">
+                        Este formulário prepara um e-mail no seu aplicativo
+                        de e-mail. Não armazena mensagens em um servidor.
+                    </small>
+
+                </form>
+
+            </div>
+        </section>
+
+    </main>
+
+
+    <!-- RODAPÉ -->
+    <footer class="footer">
+        <div class="container footer-content">
+
+            <a href="#topo" class="logo footer-logo">
+                <span class="logo-icon">&lt;/&gt;</span>
+                <span>paulo<span class="text-green">santos</span></span>
+                <span class="logo-dot">.</span>
+            </a>
+
+            <p>Construído com curiosidade, código e café.</p>
+
+            <span class="copyright">
+                &copy; <span id="currentYear">2026</span> Paulo Santos.
+                Todos os direitos reservados.
+            </span>
+
+            <a href="#topo" class="back-to-top" aria-label="Voltar ao topo">
+                <i class="fa-solid fa-arrow-up"></i>
+            </a>
+
+        </div>
+    </footer>
+
+</body>
+</html>
